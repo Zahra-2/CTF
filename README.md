@@ -8,6 +8,7 @@
 ```
 └─$  nc mercury.picoctf.net 64260
 ```
+>Output
 ```                  
 ******************Welcome to our OTP implementation!******************
 This is the encrypted flag!
@@ -19,6 +20,7 @@ What data would you like to encrypt?
 ```
 python3 -c "print('a'*49968);print('a'*32)" | nc mercury.picoctf.net 64260
 ```
+>Output
 ```
 ******************Welcome to our OTP implementation!******************
 This is the encrypted flag!
@@ -30,6 +32,7 @@ What data would you like to encrypt? Here ya go!
 03463d190702003d195004133d190356433d1902503d1950563d1900513d1959
 
 ```
+
 ```
 $ python
 Python
